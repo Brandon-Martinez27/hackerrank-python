@@ -1,7 +1,7 @@
 # HackerRank.com
 Python practice
 
-## SQL
+## Python
 [Practice Python](https://www.hackerrank.com/domains/python)
 
 ### Contents
