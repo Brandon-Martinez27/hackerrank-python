@@ -52,3 +52,13 @@ b = int(input())
 
 print(int(a/b))
 print(a/b)
+
+# Loops
+'''
+Task 
+The provided code stub reads and integer, n, from STDIN. For all non-negative integers i < n, print i^2.
+'''
+count = 0
+for i in range(1,n+1):
+    print(count**2)
+    count += 1
