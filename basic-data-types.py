@@ -57,3 +57,44 @@ for name, score in main_list:
 
 for name in sorted(second_lowest_names):
     print(name, end='\n')
+
+# Finding the percentage
+'''
+The provided code stub will read in a dictionary containing key/value pairs of name:[marks] for a list of students. 
+Print the average of the marks array for the student name provided, showing 2 places after the decimal.
+'''
+
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    
+    average = sum(student_marks[query_name])/len(student_marks[query_name])
+    print(round(average, 2))
+
+# Lists
+'''
+Consider a list (list = []). You can perform the following commands:
+
+insert i e: Insert integer e at position i.
+print: Print the list.
+remove e: Delete the first occurrence of integer e.
+append e: Insert integer e at the end of the list.
+sort: Sort the list.
+pop: Pop the last element from the list.
+reverse: Reverse the list.
+
+Initialize your list and read in the value of n followed by n lines of 
+commands where each command will be of the 7 types listed above. 
+Iterate through each command in order and perform the corresponding operation 
+on your list.
+'''
+
+# Tuples
+'''
+
+'''
